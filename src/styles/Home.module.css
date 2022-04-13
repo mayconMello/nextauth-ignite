@@ -1,8 +1,12 @@
 .container {
   padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main {
+  max-width: 750px;
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -113,4 +117,12 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
